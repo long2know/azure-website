@@ -31,3 +31,4 @@ _ReSharper*/
 packages/
 *[Nn]crunch*
 !nuget.exe
+node_modules
