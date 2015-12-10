@@ -1,0 +1,34 @@
+<form action="/answer" method="post">
+    <input type="hidden" name="pick" value="<%= pick %>"/>
+<div class="row">
+    <div class="col-md-12">
+        <h1>Pick the correct flashcard!</h1>
+    </div>
+</div>
+<div class="row flashcard-lang-row">
+    <div class="col-md-2"><img src="/flashcard-images/<%= language.image%>"></div>
+    <div class="col-md-4"><p>The language is: <%= language.name %></p><p><a href="/">Click to change the language</a></p></div>
+</div>
+<div class="row flashcard-caption-row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8"><%= caption.caption %></div>
+    <div class="col-md-2"></div>
+</div>
+    <div class="flashcard-area">
+        <% for(var i=0; i<cards.length; i++) {
+           var card = cards[i],
+               imageIndex = Math.floor(Math.random() * card.card.image.length),
+               image = card.card.image[imageIndex],
+               isStartRow = (i%2)===0,
+               isEndRow = ((i+1)%2) === 0;%>
+        <% if (isStartRow){%><div class="row flashcard-image-row"><%}%>
+        <div class="col-md-1"></div>
+        <div class="col-md-4"><img data-is-correct="<%= (pick===i) %>" src="/flashcard-images/<%= image %>"></div>
+        <div class="col-md-1"></div>
+        <% if (isEndRow){%></div><%}%>
+        <%}%>
+    </div>
+</form>
+<div id="correct" class="correct standby"><img src="/images/green-tick.svg"/></div>
+<div id="wrong" class="wrong standby"><img src="/images/red-cross.svg"/></div>
+<script type="application/javascript" src="/js/flashcard.js"></script>

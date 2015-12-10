@@ -1,0 +1,56 @@
+.welcome-language-picker .row{
+    margin-top:10px;
+
+}
+
+.welcome-language-picker img{
+    width:90%;
+    padding:0;
+    margin: 5%;
+    border:1px solid #000;
+}
+
+.welcome-language-picker .set-language-button-row{
+    text-align: center;
+}
+
+.flashcard-lang-row{
+    text-align: center;
+}
+
+.flashcard-lang-row img{
+    width:90%;
+    padding:0;
+    margin:5%;
+}
+
+.flashcard-caption-row
+{
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.flashcard-image-row img{
+    width:90%;
+    max-width:300px;
+    max-height:300px;
+    padding:0;
+    margin:5%;
+}
+
+.correct, .wrong{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+.correct img, .wrong img{
+    width:100vw;
+    height:100vh;
+}
+
+.correct.standby, .wrong.standby{
+    display:none;
+}

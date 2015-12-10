@@ -1,0 +1,434 @@
+{"languages":[
+  {"language":"en","name":"English","image":"england-01.svg"},
+  {"language":"es","name":"Español","image":"spain-01.svg"},
+  {"language":"fr","name":"Français","image":"france-01.svg"},
+  {"language":"nl","name":"Nederlands","image":"netherlands-01.svg"},
+  {"language":"de","name":"Deutsch","image":"germany-01.svg"},
+  {"language":"ca","name":"català","image":"catalunya-01.svg"}
+],
+"flashcards":[
+  {"image":["apple-01.svg"], "captions":[
+    {"language":"ca","caption":"la poma"},
+    {"language":"de","caption":"der Apfel"},
+    {"language":"en","caption":"the apple"},
+    {"language":"es","caption":"La manzana"},
+    {"language":"fr","caption":"La pomme"},
+    {"language":"nl","caption":"De appel"}
+  ]},
+  {"image":["australia-01.svg","australia-02.svg"],"captions":[
+    {"language":"ca","caption":"Austràlia"},
+    {"language":"de","caption":"Australien"},
+    {"language":"en","caption":"Australia"},
+    {"language":"es","caption":"Australia"},
+    {"language":"fr","caption":"Australie"},
+    {"language":"nl","caption":"Australië"}
+  ]},
+  {"image":["austria-01.svg"],"captions":[
+    {"language":"ca","caption":"Àustria"},
+    {"language":"de","caption":"Österreich"},
+    {"language":"en","caption":"Austria"},
+    {"language":"es","caption":"Austria"},
+    {"language":"fr","caption":"Autriche"},
+    {"language":"nl","caption":"Oostenrijk"}
+  ]},
+  {"image":["baby-01.svg"],"captions":[
+    {"language":"ca","caption":"el nadó"},
+    {"language":"de","caption":"das Baby"},
+    {"language":"en","caption":"the baby"},
+    {"language":"es","caption":"El bebé"},
+    {"language":"fr","caption":"le bébé"},
+    {"language":"nl","caption":"de baby"}
+  ]},
+  {"image":["banana-01.svg"],"captions":[
+    {"language":"ca","caption":"el plàtan"},
+    {"language":"de","caption":"die Banane"},
+    {"language":"en","caption":"the banana"},
+    {"language":"es","caption":"El plátano"},
+    {"language":"fr","caption":"la banane"},
+    {"language":"nl","caption":"de banaan"}
+  ]},
+  {"image":["belgium-01.svg"],"captions":[
+    {"language":"ca","caption":"Bèlgica"},
+    {"language":"de","caption":"Belgien"},
+    {"language":"en","caption":"Belgium"},
+    {"language":"es","caption":"Bélgica"},
+    {"language":"fr","caption":"Belgique"},
+    {"language":"nl","caption":"België"}
+  ]},
+  {"image":["broccoli-01.svg"],"captions":[
+    {"language":"ca","caption":"el bròquil"},
+    {"language":"de","caption":"der Brokkoli"},
+    {"language":"en","caption":"the broccoli"},
+    {"language":"es","caption":"El brócoli"},
+    {"language":"fr","caption":"le brocoli"},
+    {"language":"nl","caption":"de broccoli"}
+  ]},
+  {"image":["calculator-01.svg"],"captions":[
+    {"language":"ca","caption":"la calculadora"},
+    {"language":"de","caption":"der Taschenrechner"},
+    {"language":"en","caption":"the calculator"},
+    {"language":"es","caption":"La calculadora"},
+    {"language":"fr","caption":"la calculatrice"},
+    {"language":"nl","caption":"de calculator"}
+  ]},
+  {"image":["canada-01.svg","canada-02.svg"],"captions":[
+    {"language":"ca","caption":"Canadà"},
+    {"language":"de","caption":"Kanada"},
+    {"language":"en","caption":"Canada"},
+    {"language":"es","caption":"Canadá"},
+    {"language":"fr","caption":"Canada"},
+    {"language":"nl","caption":"Canada"}
+  ]},
+  {"image":["carrot-01.svg","carrot-02.svg"],"captions":[
+    {"language":"ca","caption":"la pastanaga"},
+    {"language":"de","caption":"die Karotte"},
+    {"language":"en","caption":"the carrot"},
+    {"language":"es","caption":"la zanahoria"},
+    {"language":"fr","caption":"la carotte"},
+    {"language":"nl","caption":"de wortel"}
+  ]},
+  {"image":["cat-01.svg","cat-02.svg"],"captions":[
+    {"language":"ca","caption":"el gat"},
+    {"language":"de","caption":"die Katze"},
+    {"language":"en","caption":"the cat"},
+    {"language":"es","caption":"el gato"},
+    {"language":"fr","caption":"le chat"},
+    {"language":"nl","caption":"de kat"}
+  ]},
+  {"image":["catalunya-01.svg"],"captions":[
+    {"language":"ca","caption":"Catalunya"},
+    {"language":"de","caption":"Katalonien"},
+    {"language":"en","caption":"Catalonia"},
+    {"language":"es","caption":"Cataluña"},
+    {"language":"fr","caption":"catalogne"},
+    {"language":"nl","caption":"Catalonië"}
+  ]},
+  {"image":["denmark-01.svg"],"captions":[
+    {"language":"ca","caption":"Dinamarca"},
+    {"language":"de","caption":"Dänemark"},
+    {"language":"en","caption":"Denmark"},
+    {"language":"es","caption":"Dinamarca"},
+    {"language":"fr","caption":"Danemark"},
+    {"language":"nl","caption":"Denemarken"}
+  ]},
+  {"image":["dog-01.svg","dog-02.svg"],"captions":[
+    {"language":"ca","caption":"el gos"},
+    {"language":"de","caption":"der Hund"},
+    {"language":"en","caption":"the dog"},
+    {"language":"es","caption":"el perro"},
+    {"language":"fr","caption":"le chien"},
+    {"language":"nl","caption":"de hond"}
+  ]},
+  {"image":["england-01.svg"],"captions":[
+    {"language":"ca","caption":"Anglaterra"},
+    {"language":"de","caption":"England"},
+    {"language":"en","caption":"England"},
+    {"language":"es","caption":"Inglaterra"},
+    {"language":"fr","caption":"Angleterre"},
+    {"language":"nl","caption":"Engeland"}
+  ]},
+  {"image":["european-union-01.svg"],"captions":[
+    {"language":"ca","caption":"La Unió Europea"},
+    {"language":"de","caption":"Die Europäische Union"},
+    {"language":"en","caption":"European Union"},
+    {"language":"es","caption":"La Unión Europea"},
+    {"language":"fr","caption":"L'Union européenne"},
+    {"language":"nl","caption":"De Europese Unie"}
+  ]},
+  {"image":["fifty-euro-cents-01.svg"],"captions":[
+    {"language":"ca","caption":"cinquanta cèntims d'euro"},
+    {"language":"de","caption":"fünfzig Eurocent"},
+    {"language":"en","caption":"fifty euro cents"},
+    {"language":"es","caption":"cincuenta céntimos de euro"},
+    {"language":"fr","caption":"cinquante centimes d'euro"},
+    {"language":"nl","caption":"vijftig eurocent"}
+  ]},
+  {"image":["fifty-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"cincuenta euros"},
+    {"language":"de","caption":"fünfzig Euros"},
+    {"language":"en","caption":"fifty euros"},
+    {"language":"es","caption":"cincuenta euros"},
+    {"language":"fr","caption":"cinquante euros"},
+    {"language":"nl","caption":"vijftig euros"}
+  ]},
+  {"image":["five-euro-cents-01.svg"],"captions":[
+    {"language":"ca","caption":"cinc cèntims d'euro"},
+    {"language":"de","caption":"fünf Eurocent"},
+    {"language":"en","caption":"five euro cents"},
+    {"language":"es","caption":"cinco céntimos de euro"},
+    {"language":"fr","caption":"cinq centimes d'euro"},
+    {"language":"nl","caption":"vijf eurocent"}
+  ]},
+  {"image":["five-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"cinc euros"},
+    {"language":"de","caption":"fünf Euros"},
+    {"language":"en","caption":"five euros"},
+    {"language":"es","caption":"cinco euros"},
+    {"language":"fr","caption":"cinq euros"},
+    {"language":"nl","caption":"vijf euros"}
+  ]},
+  {"image":["one-euro-cent-01.svg"],"captions":[
+    {"language":"ca","caption":"un cèntim d'euro"},
+    {"language":"de","caption":"ein Eurocent"},
+    {"language":"en","caption":"one euro cent"},
+    {"language":"es","caption":"un céntimo de euro"},
+    {"language":"fr","caption":"un centimes d'euro"},
+    {"language":"nl","caption":"één eurocent"}
+  ]},
+  {"image":["one-euro-01.svg"],"captions":[
+    {"language":"ca","caption":"un euro"},
+    {"language":"de","caption":"ein Euro"},
+    {"language":"en","caption":"one euro"},
+    {"language":"es","caption":"un euro"},
+    {"language":"fr","caption":"un euro"},
+    {"language":"nl","caption":"één euros"}
+  ]},
+  {"image":["one-hundred-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"cent euros"},
+    {"language":"de","caption":"hundert Euros"},
+    {"language":"en","caption":"one hundred euros"},
+    {"language":"es","caption":"cien euros"},
+    {"language":"fr","caption":"cent euros"},
+    {"language":"nl","caption":"honderd euros"}
+  ]},
+  {"image":["ten-euro-cents-01.svg"],"captions":[
+    {"language":"ca","caption":"deu cèntims d'euro"},
+    {"language":"de","caption":"zehn Eurocent"},
+    {"language":"en","caption":"ten euro cents"},
+    {"language":"es","caption":"diez céntimos de euro"},
+    {"language":"fr","caption":"dix centimes d'euro"},
+    {"language":"nl","caption":"tien eurocent"}
+  ]},
+  {"image":["ten-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"deu euros"},
+    {"language":"de","caption":"zehn Euros"},
+    {"language":"en","caption":"ten euros"},
+    {"language":"es","caption":"diez euros"},
+    {"language":"fr","caption":"dix euros"},
+    {"language":"nl","caption":"tien euros"}
+  ]},
+  {"image":["twenty-euro-cents-01.svg"],"captions":[
+    {"language":"ca","caption":"vint cèntims d'euro"},
+    {"language":"de","caption":"zwanzig Eurocent"},
+    {"language":"en","caption":"twenty euro cents"},
+    {"language":"es","caption":"veinte céntimos de euro"},
+    {"language":"fr","caption":"vingt centimes d'euro"},
+    {"language":"nl","caption":"twintig eurocent"}
+  ]},
+  {"image":["twenty-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"vint euros"},
+    {"language":"de","caption":"zwanzig Euros"},
+    {"language":"en","caption":"twenty euros"},
+    {"language":"es","caption":"veinte euros"},
+    {"language":"fr","caption":"vingt euros"},
+    {"language":"nl","caption":"twintig euros"}
+  ]},
+  {"image":["two-euro-cents-01.svg"],"captions":[
+    {"language":"ca","caption":"dos cèntims d'euro"},
+    {"language":"de","caption":"zwei Eurocent"},
+    {"language":"en","caption":"two euro cents"},
+    {"language":"es","caption":"dos céntimos de euro"},
+    {"language":"fr","caption":"deux centimes d'euro"},
+    {"language":"nl","caption":"twee eurocent"}
+  ]},
+  {"image":["two-euros-01.svg"],"captions":[
+    {"language":"ca","caption":"dos euros"},
+    {"language":"de","caption":"zwei Euros"},
+    {"language":"en","caption":"two euros"},
+    {"language":"es","caption":"dos euros"},
+    {"language":"fr","caption":"deux euros"},
+    {"language":"nl","caption":"twee euros"}
+  ]},
+  {"image":["fire-01.svg"],"captions":[
+    {"language":"ca","caption":"foc"},
+    {"language":"de","caption":"Feuer"},
+    {"language":"en","caption":"fire"},
+    {"language":"es","caption":"fuego"},
+    {"language":"fr","caption":"feu"},
+    {"language":"nl","caption":"brand"}
+  ]},
+  {"image":["france-01.svg","france-02.svg"],"captions":[
+    {"language":"ca","caption":"França"},
+    {"language":"de","caption":"Frankreich"},
+    {"language":"en","caption":"France"},
+    {"language":"es","caption":"Francia"},
+    {"language":"fr","caption":"France"},
+    {"language":"nl","caption":"Frankrijk"}
+  ]},
+  {"image":["germany-01.svg"],"captions":[
+    {"language":"ca","caption":"Alemanya"},
+    {"language":"de","caption":"Deutschland"},
+    {"language":"en","caption":"Germany"},
+    {"language":"es","caption":"Alemania"},
+    {"language":"fr","caption":"Allemagne"},
+    {"language":"nl","caption":"Duitsland"}
+  ]},
+  {"image":["greece-01.svg"],"captions":[
+    {"language":"ca","caption":"Grècia"},
+    {"language":"de","caption":"Griechenland"},
+    {"language":"en","caption":"Greece"},
+    {"language":"es","caption":"Grecia"},
+    {"language":"fr","caption":"Grèce"},
+    {"language":"nl","caption":"Griekenland"}
+  ]},
+  {"image":["house-01.svg","house-02.svg"],"captions":[
+    {"language":"ca","caption":"la casa"},
+    {"language":"de","caption":"das Haus"},
+    {"language":"en","caption":"the house"},
+    {"language":"es","caption":"la casa"},
+    {"language":"fr","caption":"la maison"},
+    {"language":"nl","caption":"het huis"}
+  ]},
+  {"image":["iceland-01.svg"],"captions":[
+    {"language":"ca","caption":"Islàndia"},
+    {"language":"de","caption":"Island"},
+    {"language":"en","caption":"Iceland"},
+    {"language":"es","caption":"Islandia"},
+    {"language":"fr","caption":"Islande"},
+    {"language":"nl","caption":"IJsland"}
+  ]},
+  {"image":["ireland-01.svg"],"captions":[
+    {"language":"ca","caption":"Irlanda"},
+    {"language":"de","caption":"Irland"},
+    {"language":"en","caption":"Ireland"},
+    {"language":"es","caption":"Irlanda"},
+    {"language":"fr","caption":"Irlande"},
+    {"language":"nl","caption":"Ierland"}
+  ]},
+  {"image":["italy-01.svg","italy-02.svg"],"captions":[
+    {"language":"ca","caption":"Itàlia"},
+    {"language":"de","caption":"Italien"},
+    {"language":"en","caption":"Italy"},
+    {"language":"es","caption":"Italia"},
+    {"language":"fr","caption":"Italie"},
+    {"language":"nl","caption":"Italië"}
+  ]},
+  {"image":["mouse-01.svg"],"captions":[
+    {"language":"ca","caption":"el ratolí"},
+    {"language":"de","caption":"die Maus"},
+    {"language":"en","caption":"the mouse"},
+    {"language":"es","caption":"el ratón"},
+    {"language":"fr","caption":"la souris"},
+    {"language":"nl","caption":"de muis"}
+  ]},
+  {"image":["mushroom-01.svg"],"captions":[
+    {"language":"ca","caption":"el fong"},
+    {"language":"de","caption":"der Pilz"},
+    {"language":"en","caption":"the mushroom"},
+    {"language":"es","caption":"el hongo"},
+    {"language":"fr","caption":"le champignon"},
+    {"language":"nl","caption":"de paddestoel"}
+  ]},
+  {"image":["netherlands-01.svg","netherlands-02.svg"],"captions":[
+    {"language":"ca","caption":"els Països Baixos"},
+    {"language":"de","caption":"Niederlande"},
+    {"language":"en","caption":"The Netherlands"},
+    {"language":"es","caption":"Países Bajos"},
+    {"language":"fr","caption":"Pays-Bas"},
+    {"language":"nl","caption":"de Nederland"}
+  ]},
+  {"image":["new-zealand-01.svg"],"captions":[
+    {"language":"ca","caption":"nova Zelanda"},
+    {"language":"de","caption":"Neuseeland"},
+    {"language":"en","caption":"New Zealand"},
+    {"language":"es","caption":"nueva Zelanda"},
+    {"language":"fr","caption":"Nouvelle-Zélande"},
+    {"language":"nl","caption":"nieuw Zeeland"}
+  ]},
+  {"image":["orange-01.svg"],"captions":[
+    {"language":"ca","caption":"la taronja"},
+    {"language":"de","caption":"die orange"},
+    {"language":"en","caption":"the orange"},
+    {"language":"es","caption":"la naranja"},
+    {"language":"fr","caption":"l'orange"},
+    {"language":"nl","caption":"het oranje"}
+  ]},
+  {"image":["pineapple-01.svg"],"captions":[
+    {"language":"ca","caption":"la pinya"},
+    {"language":"de","caption":"die Ananas"},
+    {"language":"en","caption":"the pinapple"},
+    {"language":"es","caption":"la piña"},
+    {"language":"fr","caption":"l'ananas"},
+    {"language":"nl","caption":"de ananas"}
+  ]},
+  {"image":["poland-01.svg","poland-02.svg"],"captions":[
+    {"language":"ca","caption":"Polònia"},
+    {"language":"de","caption":"Polen"},
+    {"language":"en","caption":"Poland"},
+    {"language":"es","caption":"Polonia"},
+    {"language":"fr","caption":"Pologne"},
+    {"language":"nl","caption":"Polen"}
+  ]},
+  {"image":["portugal-01.svg","portugal-02.svg"],"captions":[
+    {"language":"ca","caption":"Portugal"},
+    {"language":"de","caption":"Portugal"},
+    {"language":"en","caption":"Portugal"},
+    {"language":"es","caption":"Portugal"},
+    {"language":"fr","caption":"Portugal"},
+    {"language":"nl","caption":"Portugal"}
+  ]},
+  {"image":["scotland-01.svg","scotland-02.svg"],"captions":[
+    {"language":"ca","caption":"Escòcia"},
+    {"language":"de","caption":"Schottland"},
+    {"language":"en","caption":"Scotland"},
+    {"language":"es","caption":"Escocia"},
+    {"language":"fr","caption":"Écosse"},
+    {"language":"nl","caption":"Schotland"}
+  ]},
+  {"image":["spain-01.svg","spain-02.svg","spain-03.svg"],"captions":[
+    {"language":"ca","caption":"Espanya"},
+    {"language":"de","caption":"Spanien"},
+    {"language":"en","caption":"Spain"},
+    {"language":"es","caption":"España"},
+    {"language":"fr","caption":"Espagne"},
+    {"language":"nl","caption":"Spanje"}
+  ]},
+  {"image":["sweden-01.svg","sweden-02.svg"],"captions":[
+    {"language":"ca","caption":"Suècia"},
+    {"language":"de","caption":"Schweden"},
+    {"language":"en","caption":"Sweden"},
+    {"language":"es","caption":"Suecia"},
+    {"language":"fr","caption":"Suède"},
+    {"language":"nl","caption":"Zweden"}
+  ]},
+  {"image":["switzerland-01.svg"],"captions":[
+    {"language":"ca","caption":"Suïssa"},
+    {"language":"de","caption":"Schweiz"},
+    {"language":"en","caption":"Switzerland"},
+    {"language":"es","caption":"Suiza"},
+    {"language":"fr","caption":"Suisse"},
+    {"language":"nl","caption":"Zwitserland"}
+  ]},
+  {"image":["tree-01.svg","tree-02.svg","tree-03.svg"],"captions":[
+    {"language":"ca","caption":"l'arbre"},
+    {"language":"de","caption":"der Baum"},
+    {"language":"en","caption":"the tree"},
+    {"language":"es","caption":"el árbol"},
+    {"language":"fr","caption":"l'arbre"},
+    {"language":"nl","caption":"de boom"}
+  ]},
+  {"image":["usa-01.svg","usa-02.svg","usa-03.svg","usa-04.svg"],"captions":[
+    {"language":"ca","caption":"Estats Units d'Amèrica"},
+    {"language":"de","caption":"Vereinigte Staaten von Amerika"},
+    {"language":"en","caption":"United States of America"},
+    {"language":"es","caption":"Estados Unidos de América"},
+    {"language":"fr","caption":"Les états-unis d'Amérique"},
+    {"language":"nl","caption":"Verenigde Staten van Amerika"}
+  ]},
+  {"image":["wales-01.svg","wales-02.svg"],"captions":[
+    {"language":"ca","caption":"Gal·les"},
+    {"language":"de","caption":"Wales"},
+    {"language":"en","caption":"Wales"},
+    {"language":"es","caption":"Gales"},
+    {"language":"fr","caption":"Pays de Galles"},
+    {"language":"nl","caption":"Wales"}
+  ]},
+  {"image":["wallet-01.svg"],"captions":[
+    {"language":"ca","caption":"la cartera"},
+    {"language":"de","caption":"die Brieftasche"},
+    {"language":"en","caption":"the wallet"},
+    {"language":"es","caption":"la billetera"},
+    {"language":"fr","caption":"le portefeuille"},
+    {"language":"nl","caption":"de portemonnee"}
+  ]}
+]}
