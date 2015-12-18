@@ -28,6 +28,7 @@ router.post('/user', function(req, res, next) {
     var lastname = req.body.lastname;
     var email = req.body.email;
     res.writeHead(400, 'validationException', {'content-type' : 'text/plain'});
+    res.end('Error!');
 });
 
 module.exports = router;
