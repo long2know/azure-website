@@ -27,12 +27,14 @@ router.post('/user', function (req, res, next) {
     var firstname = req.body.firstname;
     var lastname = req.body.lastname;
     var email = req.body.email;
-    res.writeHead(400, 'validationException', { 'content-type': 'text/plain' });
-    res.json({
+    var error = {
         firstname: 'Your first name is no good',
         lastname: 'Last name is no good.',
         email: 'Email is invalid'
-    });
+    };
+    var errorStr = JSON.stringify(error);
+    res.writeHead(400, 'validationException', { 'content-type': 'text/plain' });
+    res.send(errorStr);
     res.end('Error!');
 });
 
