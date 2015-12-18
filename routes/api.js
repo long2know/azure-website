@@ -28,9 +28,9 @@ router.post('/user', function (req, res, next) {
     var lastname = req.body.lastname;
     var email = req.body.email;
     var error = [
-        { Key: 'firstname', Value: 'Your first name is no good' },
-        { Key: 'lastname', Value: 'Last name is no good' },
-        { Key: 'email', Value: 'Email is invalid' },
+        { Key: 'firstname', Value: ['Your first name is no good'] },
+        { Key: 'lastname', Value: ['Last name is no good'] },
+        { Key: 'email', Value: ['Email is invalid'] },
     ];
     var errorStr = JSON.stringify(error);
     res.writeHead(400, 'validationException', { 'content-type': 'text/plain' });
