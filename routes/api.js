@@ -34,8 +34,7 @@ router.post('/user', function (req, res, next) {
     };
     var errorStr = JSON.stringify(error);
     res.writeHead(400, 'validationException', { 'content-type': 'text/plain' });
-    res.send(errorStr);
-    res.end('Error!');
+    res.end(errorStr);
 });
 
 module.exports = router;
