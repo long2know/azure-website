@@ -45,7 +45,7 @@ router.post('/user', function (req, res, next) {
     for (var i = error.length - 1; i >= 0; i--) {
         var rand = randNumber();
         if (rand > 50) {
-            error.slice(i, 1);
+            error.splice(i, 1);
         }
     }
     
