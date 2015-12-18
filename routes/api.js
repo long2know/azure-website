@@ -28,6 +28,7 @@ router.post('/user', function (req, res, next) {
         var min = 1;
         var max = 100;
         var random = Math.floor(Math.random() * (max - min + 1)) + min;
+        return random;
     }
     
     var firstname = req.body.firstname;
