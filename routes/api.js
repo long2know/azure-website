@@ -29,7 +29,7 @@ router.post('/user', function (req, res, next) {
         var max = 100;
         var random = Math.floor(Math.random() * (max - min + 1)) + min;
         return random;
-    }
+    };
     
     var firstname = req.body.firstname;
     var lastname = req.body.lastname;
@@ -42,7 +42,7 @@ router.post('/user', function (req, res, next) {
     ];
     
     // Randomly choose which errors to keep
-    for (var i = 0; i < error.length; i++) {
+    for (var i = error.length - 1; i >= 0; i--) {
         var rand = randNumber();
         if (rand > 50) {
             error.slice(i, 1);
